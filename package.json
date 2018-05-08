@@ -1,0 +1,19 @@
+{
+    "name": "nodeapi",
+    "version": "1.0.0",
+    "description": "Setup nodejsapi",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js"
+    },
+    "author": "ShadrackNdolo",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "^4.16.3",
+        "mongodb": "^2.2.16"
+    },
+    "devDependencies": {
+        "nodemon": "^1.17.4"
+    }
+}
